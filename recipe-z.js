@@ -1,5 +1,4 @@
-
-export default [
+[
     {id:'0', type:'output', data:{label:'dhaba-chicken'}, position:{x:'0', y:'0'}},
     {id:'1', type:'input', data:{label:'chicken'}, position:{x:'0', y:'0'}},
     {id:'1-1', type:'output', data:{label:'diced-chicken'}, position:{x:'0', y:'0'}},
