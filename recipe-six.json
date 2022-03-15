@@ -1,0 +1,6 @@
+{
+    "elements": [
+    {"id":"0", "type":"output", "data":{"label":"primodial-egg"}, "position":{"x":"0", "y":"0"}},
+    {"id":"1", "type":"output", "data":{"label":"hatched-egg"}, "position":{"x":"60", "y":"60"}}
+    ]
+}
