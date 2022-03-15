@@ -2,6 +2,7 @@
     "elements": [
     {"id":"0", "type":"output", "data":{"label":"primodial-egg"}, "position":{"x":"0", "y":"0"}},
     {"id":"1", "type":"input", "data":{"label":"hatched-egg"}, "position":{"x":"100", "y":"100"}},
+    {"id":"2", "type":"input", "data":{"label":"one-more-hatchling"}, "position":{"x":"60", "y":"200"}},
     {"id": "start", "source": "1", "target": "0", "label":"add a node and start your universe", "labelStyle":{"fill": "red", "fontWeight": "700"}}
     ]
 }
