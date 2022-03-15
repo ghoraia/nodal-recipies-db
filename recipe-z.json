@@ -1,3 +1,5 @@
-[
+{
+    "elements": [
     {"id":"0", "type":"output", "data":{"label":"dhaba-chicken"}, "position":{"x":"0", "y":"0"}}    
-]
+    ]
+}
