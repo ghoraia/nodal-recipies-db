@@ -4,24 +4,16 @@
       "id": "1",
       "type": "input",
       "data": {
-        "label": "(
-          <>
-            Welcome to <strong>React Flow!</strong>
-          </>
-        )",
+        "label": "Welcome to React Flow!"
       },
-      "position": { "x": "250", "y": "0" },
+      "position": { "x": "250", "y": "0" }
     },
     {
       "id": "2",
       "data": {
-        "label": "(
-        <>
-            This is a <strong>default node</strong>
-          </>
-        )",
+        "label": "This is a default node"
       },
-      "position": { "x": "100", "y": "100" },
+      "position": { "x": "100", "y": "100" }
     }
 ],
 "edges" : [
