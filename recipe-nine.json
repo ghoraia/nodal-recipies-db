@@ -1,14 +1,30 @@
 {
-    "nodes": [
-    {"id":"0", "data":{"label":"primodial-egg"}, "position":{"x":"0", "y":"0"}, "style":{"background": "#ffcc50"}},
-    {"id":"1", "data":{"label":"hatched-egg"}, "position":{"x":"100", "y":"100"}},
-    {"id":"2", "data":{"label":"one-more-hatchling"}, "position":{"x":"60", "y":"200"}},
-    {"id":"3", "data":{"label":"yet-one-more"}, "position":{"x":"150", "y":"250"}}
-    ],
-    "edges": [
-    {"id": "start", "source": "1", "target": "0", "label":"hatch egg", "labelStyle":{"fill": "red", "fontWeight": "700"}},
-    {"id": "start-two", "source":"2", "target":"1", "label":"add a node and start your universe", "labelStyle":{"fill": "red", "fontWeight": "700"}},
-    {"id": "start-three", "source":"2", "target":"0", "label":"add a node and start your universe", "labelStyle":{"fill": "red", "fontWeight": "700"}},
-    {"id": "start-four", "source":"3", "target":"2", "label":"add a node and start your universe", "labelStyle":{"fill": "blue", "fontWeight": "700"}}
-    ]
-}
+"nodes": [
+    {
+      "id": "1",
+      "type": "input",
+      "data": {
+        "label": "(
+          <>
+            Welcome to <strong>React Flow!</strong>
+          </>
+        )",
+      },
+      "position": { "x": "250", "y": "0" },
+    },
+    {
+      "id": "2",
+      "data": {
+        "label": "(
+        <>
+            This is a <strong>default node</strong>
+          </>
+        )",
+      },
+      "position": { "x": "100", "y": "100" },
+    }
+],
+"edges" : [
+    { "id": "e1-2", "source": "1", "target": "2", "label": "this is an edge label" },
+  ]
+};
